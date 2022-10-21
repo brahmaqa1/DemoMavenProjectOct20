@@ -21,7 +21,7 @@ public class LoginPageTestTC1 {
 		// open given url ib browser
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20L));
-		
+		// added come commny by tester-2 
 		LoginPage lp = new LoginPage(driver);
 		lp.enter_userName("Admin");
 		lp.enter_Password("admin123");		
