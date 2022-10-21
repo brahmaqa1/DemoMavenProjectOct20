@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<groups>
+	  <run>
+	  		<!-- <include name="MobileTest"></include> -->
+	  		<!-- <exclude name="MobileTest"> </exclude> -->
+	  		<!-- <exclude name="smoke"> </exclude> -->
+	  		
+	  		<!-- <include name="smoke"></include> -->
+	  		<include name="MobileTest"></include>
+	  </run>
+	</groups>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNGBasics.testAnnonWithGroups1"/>
+      <class name="TestNGBasics.testAnnonWithGroups2"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

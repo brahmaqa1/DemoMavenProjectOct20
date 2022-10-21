@@ -1,0 +1,5 @@
+14:54:42,917  INFO devpinoyLogger<strong>{1}</strong>:15 - check append
+14:54:42,920  INFO devpinoyLogger<strong>{1}</strong>:17 - Tc1: Enter user name
+14:54:42,920  INFO devpinoyLogger<strong>{1}</strong>:18 - 2.Enter pwd
+14:54:42,920 DEBUG devpinoyLogger<strong>{1}</strong>:20 - 3.Click login btn
+14:54:42,920 ERROR devpinoyLogger<strong>{1}</strong>:22 - 4.passing error
